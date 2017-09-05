@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Edit Proile" />
+        <item
+            android:id="@+id/nav_app_users"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="App Users" />
+        <item
+            android:id="@+id/nav_recent_activity"
+            android:icon="@drawable/ic_watch_later_black_24dp"
+            android:title="Recent Activity" />
+    </group>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about_dev"
+                android:icon="@drawable/ic_group_work_black_24dp"
+                android:title="About Developer" />
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_perm_device_information_black_24dp"
+                android:title="About App" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+    <item android:title="Log Out">
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Log Out" />
+    </item>
+
+
+</menu>

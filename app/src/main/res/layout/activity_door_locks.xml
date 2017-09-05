@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_door_locks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.farshad.smarthome.Controler.DoorLocks">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/doorRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <!--Button
+        android:text="@string/pref_open_door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/btnOpenDoor"
+        android:onClick="Intent m = new MainActivity();"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" /-->
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_ip">Server IP</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">Smart Home</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example Server settings -->
+    <string name="pref_header_server">Server</string>
+
+    <string name="pref_ip">IP</string>
+    <string name="pref_example_ip">2.187.150.247</string>
+
+    <string name="pref_port">PORT</string>
+    <string name="pref_example_port">8080</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_open_door">Open Door</string>
+    <string name="Door1">door</string>
+    <string name="Parking_Door">Door Description</string>
+    <string name="delete_img">Delete</string>
+    <string name="add_img">Add</string>
+    <string name="door_locks">Door Locks</string>
+    <string name="User1">User 1</string>
+    <string name="username">ff</string>
+    <string name="app_users">App Users</string>
+    <string name="name">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="confirm_password">Password (confirm)</string>
+    <string name="action_create_user">Add User</string>
+    <string name="action_edit_user">Create Or Update</string>
+    <string name="error_invalid_not_matched">Password not match</string>
+
+    //user Auth info
+    <string name="pref_access_token" translatable="false">pref_access_token</string>
+    <string name="pref_user_id" translatable="false">pref_user_id</string>
+    <string name="pref_user_name" translatable="false">pref_user_name</string>
+    <string name="pref_user_lastname" translatable="false">pref_user_lastname</string>
+    <string name="pref_user_email" translatable="false">pref_user_email</string>
+    <string name="pref_user_password" translatable="false">pref_user_password</string>
+    <string name="pref_user_usertype" translatable="false">pref_user_usertype</string>
+    <string name="pref_user_familyid" translatable="false">pref_user_family_id</string>
+    <string name="pref_user_image_url">pref_user_image_url</string>
+    <string name="pref_refresh_token" />
+
+    //door
+    <string name="door_pin">Door Pin</string>
+    <string name="door_image_id">Door Image ID</string>
+    <string name="family_id">Family ID</string>
+    <string name="door_name">Door Name</string>
+    <string name="door_description">Door Description</string>
+
+</resources>
